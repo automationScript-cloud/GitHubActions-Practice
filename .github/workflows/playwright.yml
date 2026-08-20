@@ -12,9 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: lts/*
 
@@ -48,30 +50,32 @@ jobs:
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
 
-          subject: "Playwright Test Result - ${{ steps.playwright.outcome }}"
+          from: ${{ secrets.SMTP_USERNAME }}
 
           to: |
             ${{ secrets.EMAIL_TO_1 }}
             ${{ secrets.EMAIL_TO_2 }}
 
-          from: ${{ secrets.SMTP_USERNAME }}
+          subject: "Playwright Test Result - ${{ steps.playwright.outcome }}"
 
           body: |
             Hello,
 
-            Playwright automation execution has completed.
+            Playwright automation test execution has completed.
 
             Repository: ${{ github.repository }}
             Branch: ${{ github.ref_name }}
-
             Test Status: ${{ steps.playwright.outcome }}
 
-            Please check the GitHub Actions run for the detailed
-            Playwright test report.
+            Test result:
+            - PASS = Tests passed
+            - FAIL = One or more tests failed
+
+            Please check GitHub Actions for the detailed Playwright report.
 
             Regards,
             QA Automation
 
-      - name: Mark workflow as failed if tests failed
+      - name: Mark workflow as failed
         if: ${{ steps.playwright.outcome == 'failure' }}
         run: exit 1
