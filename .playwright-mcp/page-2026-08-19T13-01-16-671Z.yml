@@ -1,0 +1,404 @@
+- generic [active] [ref=f4e1]:
+  - table [ref=f4e2]:
+    - rowgroup [ref=f4e3]:
+      - row [ref=f4e4]:
+        - cell [ref=f4e5]:
+          - img "vtiger-crm-logo.gif" [ref=f4e6]
+        - cell [ref=f4e7]:
+          - table [ref=f4e9]:
+            - rowgroup [ref=f4e10]:
+              - row [ref=f4e11]:
+                - cell [ref=f4e12]:
+                  - textbox [ref=f4e13]: Search...
+                - cell [ref=f4e14]:
+                  - link:
+                    - /url: javascript:void(0);
+                    - img [ref=f4e15] [cursor=pointer]
+                - cell [ref=f4e16]:
+                  - button "Find" [ref=f4e17] [cursor=pointer]
+        - cell [ref=f4e18]:
+          - table [ref=f4e19]:
+            - rowgroup [ref=f4e20]:
+              - row [ref=f4e21]:
+                - cell "Administrator" [ref=f4e22]
+                - cell [ref=f4e23]
+                - cell [ref=f4e25]
+                - cell [ref=f4e28]
+  - table [ref=f4e30]:
+    - rowgroup [ref=f4e31]:
+      - row [ref=f4e32]:
+        - cell [ref=f4e33]:
+          - link [ref=f4e34] [cursor=pointer]:
+            - /url: index.php?module=Home&action=index&parenttab=My Home Page
+        - cell [ref=f4e36]:
+          - table [ref=f4e37]:
+            - rowgroup [ref=f4e38]:
+              - row [ref=f4e39]:
+                - cell [ref=f4e40]
+                - cell [ref=f4e42]:
+                  - link "Calendar" [ref=f4e43] [cursor=pointer]:
+                    - /url: index.php?module=Calendar&action=index
+                - cell [ref=f4e44]
+                - cell [ref=f4e46]:
+                  - link "Leads" [ref=f4e47] [cursor=pointer]:
+                    - /url: index.php?module=Leads&action=index
+                - cell [ref=f4e48]
+                - cell [ref=f4e50]:
+                  - link "Organizations" [ref=f4e51] [cursor=pointer]:
+                    - /url: index.php?module=Accounts&action=index
+                - cell [ref=f4e52]
+                - cell [ref=f4e54]:
+                  - link "Contacts" [ref=f4e55] [cursor=pointer]:
+                    - /url: index.php?module=Contacts&action=index
+                - cell [ref=f4e56]
+                - cell [ref=f4e58]:
+                  - link "Opportunities" [ref=f4e59] [cursor=pointer]:
+                    - /url: index.php?module=Potentials&action=index
+                - cell [ref=f4e60]
+                - cell [ref=f4e62]:
+                  - link "Products" [ref=f4e63] [cursor=pointer]:
+                    - /url: index.php?module=Products&action=index
+                - cell [ref=f4e64]
+                - cell [ref=f4e66]:
+                  - link "Documents" [ref=f4e67] [cursor=pointer]:
+                    - /url: index.php?module=Documents&action=index
+                - cell [ref=f4e68]
+                - cell [ref=f4e70]:
+                  - link "Email" [ref=f4e71] [cursor=pointer]:
+                    - /url: index.php?module=Emails&action=index
+                - cell [ref=f4e72]
+                - cell [ref=f4e74]:
+                  - link "Trouble Tickets" [ref=f4e75] [cursor=pointer]:
+                    - /url: index.php?module=HelpDesk&action=index
+                - cell [ref=f4e76]
+                - cell [ref=f4e78]:
+                  - link "Dashboard" [ref=f4e79] [cursor=pointer]:
+                    - /url: index.php?module=Dashboard&action=index
+                - cell [ref=f4e80]
+                - cell [ref=f4e82]:
+                  - link "More" [ref=f4e83] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=f4e85]
+                - cell "Quick Create..." [ref=f4e87]:
+                  - combobox [ref=f4e88]:
+                    - option "Quick Create..." [selected]
+                    - option "New Organization"
+                    - option "New Asset"
+                    - option "New To Do"
+                    - option "New Campaign"
+                    - option "New Comment"
+                    - option "New Contact"
+                    - option "New Document"
+                    - option "New Event"
+                    - option "New Ticket"
+                    - option "New Lead"
+                    - option "New Opportunity"
+                    - option "New PriceBook"
+                    - option "New Product"
+                    - option "New Project"
+                    - option "New Project Milestone"
+                    - option "New Project Task"
+                    - option "New Service Contract"
+                    - option "New Service"
+                    - option "New Vendor"
+        - cell [ref=f4e89]
+  - table [ref=f4e90]:
+    - rowgroup [ref=f4e91]:
+      - row [ref=f4e92]:
+        - cell [ref=f4e93]
+      - row [ref=f4e94]:
+        - cell [ref=f4e95]:
+          - link "Leads" [ref=f4e96] [cursor=pointer]:
+            - /url: index.php?action=ListView&module=Leads&parenttab=Marketing
+        - cell [ref=f4e97]:
+          - table [ref=f4e98]:
+            - rowgroup [ref=f4e99]:
+              - row [ref=f4e100]:
+                - cell [ref=f4e101]
+                - cell [ref=f4e102]:
+                  - table [ref=f4e103]:
+                    - rowgroup [ref=f4e104]:
+                      - row [ref=f4e105]:
+                        - cell [ref=f4e106]:
+                          - table [ref=f4e107]:
+                            - rowgroup [ref=f4e108]:
+                              - row [ref=f4e109]:
+                                - cell [ref=f4e110]:
+                                  - link [ref=f4e111] [cursor=pointer]:
+                                    - /url: index.php?module=Leads&action=EditView&return_action=DetailView&parenttab=Marketing
+                                    - img "Create Lead..." [ref=f4e112]
+                                - cell [ref=f4e113]
+                - cell [ref=f4e115]
+                - cell [ref=f4e116]:
+                  - table [ref=f4e117]:
+                    - rowgroup [ref=f4e118]:
+                      - row [ref=f4e119]:
+                        - cell [ref=f4e120]:
+                          - link [ref=f4e121] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Open Calendar..." [ref=f4e122]
+                        - cell [ref=f4e123]:
+                          - link [ref=f4e124] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Show World Clock..." [ref=f4e125]
+                        - cell [ref=f4e126]:
+                          - link [ref=f4e127] [cursor=pointer]:
+                            - /url: "#"
+                            - img "Open Calculator..." [ref=f4e128]
+                        - cell [ref=f4e129]:
+                          - link [ref=f4e130] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Chat..." [ref=f4e131]
+                        - cell [ref=f4e132]:
+                          - img "Last Viewed" [ref=f4e133]
+                - cell [ref=f4e134]
+                - cell [ref=f4e135]:
+                  - table [ref=f4e136]:
+                    - rowgroup [ref=f4e137]:
+                      - row [ref=f4e138]:
+                        - cell [ref=f4e139]:
+                          - link [ref=f4e140] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=Import&step=1&return_module=Leads&return_action=index&parenttab=Marketing
+                            - img "Import Leads" [ref=f4e141]
+                        - cell [ref=f4e142]:
+                          - link [ref=f4e143] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                            - img "Export Leads" [ref=f4e144]
+                        - cell [ref=f4e145]
+                - cell [ref=f4e147]
+                - cell [ref=f4e148]:
+                  - table [ref=f4e149]:
+                    - rowgroup [ref=f4e150]:
+                      - row [ref=f4e151]:
+                        - cell [ref=f4e152]:
+                          - link [ref=f4e153] [cursor=pointer]:
+                            - /url: index.php?module=Settings&action=ModuleManager&module_settings=true&formodule=Leads&parenttab=Settings
+                            - img "Leads Settings" [ref=f4e154]
+  - table [ref=f4e155]:
+    - rowgroup [ref=f4e156]:
+      - row [ref=f4e157]:
+        - cell [ref=f4e158]
+        - cell [ref=f4e160]:
+          - generic [ref=f4e161]:
+            - text: Creating New Lead
+            - separator [ref=f4e162]
+            - table [ref=f4e164]:
+              - rowgroup [ref=f4e165]:
+                - row [ref=f4e166]:
+                  - cell [ref=f4e167]:
+                    - table [ref=f4e168]:
+                      - rowgroup [ref=f4e169]:
+                        - row [ref=f4e170]:
+                          - cell [ref=f4e171]
+                          - cell "Lead Information" [ref=f4e172]
+                          - cell [ref=f4e173]
+                          - cell [ref=f4e174]
+                - row [ref=f4e175]:
+                  - cell [ref=f4e176]:
+                    - table [ref=f4e177]:
+                      - rowgroup [ref=f4e178]:
+                        - row [ref=f4e179]:
+                          - cell [ref=f4e180]:
+                            - table [ref=f4e181]:
+                              - rowgroup [ref=f4e182]:
+                                - row:
+                                  - cell
+                                - row [ref=f4e183]:
+                                  - cell [ref=f4e184]:
+                                    - table [ref=f4e185]:
+                                      - rowgroup [ref=f4e186]:
+                                        - row [ref=f4e187]:
+                                          - cell [ref=f4e188]:
+                                            - generic [ref=f4e189]:
+                                              - button "Save" [ref=f4e190]
+                                              - button "Cancel" [ref=f4e191]
+                                        - row [ref=f4e192]:
+                                          - cell "Lead Information" [ref=f4e193]
+                                        - row [ref=f4e194]:
+                                          - cell "First Name" [ref=f4e195]
+                                          - cell "--None--" [ref=f4e196]:
+                                            - combobox [ref=f4e197]:
+                                              - option "--None--" [selected]
+                                              - option "Mr."
+                                              - option "Ms."
+                                              - option "Mrs."
+                                              - option "Dr."
+                                              - option "Prof."
+                                            - textbox [ref=f4e198]
+                                          - cell "Lead No" [ref=f4e199]
+                                          - cell [ref=f4e200]:
+                                            - textbox [ref=f4e201]: AUTO GEN ON SAVE
+                                        - row [ref=f4e202]:
+                                          - cell "*Last Name" [ref=f4e203]
+                                          - cell [ref=f4e204]:
+                                            - textbox [ref=f4e205]
+                                          - cell "Phone" [ref=f4e206]
+                                          - cell [ref=f4e207]:
+                                            - textbox [ref=f4e208]
+                                        - row [ref=f4e209]:
+                                          - cell "*Company" [ref=f4e210]
+                                          - cell [ref=f4e211]:
+                                            - textbox [ref=f4e212]
+                                          - cell "Mobile" [ref=f4e213]
+                                          - cell [ref=f4e214]:
+                                            - textbox [ref=f4e215]
+                                        - row [ref=f4e216]:
+                                          - cell "Title" [ref=f4e217]
+                                          - cell [ref=f4e218]:
+                                            - textbox [ref=f4e219]
+                                          - cell "Fax" [ref=f4e220]
+                                          - cell [ref=f4e221]:
+                                            - textbox [ref=f4e222]
+                                        - row [ref=f4e223]:
+                                          - cell "Lead Source" [ref=f4e224]
+                                          - cell "--None--" [ref=f4e225]:
+                                            - combobox [ref=f4e226]:
+                                              - option "--None--" [selected]
+                                              - option "Cold Call"
+                                              - option "Existing Customer"
+                                              - option "Self Generated"
+                                              - option "Employee"
+                                              - option "Partner"
+                                              - option "Public Relations"
+                                              - option "Direct Mail"
+                                              - option "Conference"
+                                              - option "Trade Show"
+                                              - option "Web Site"
+                                              - option "Word of mouth"
+                                              - option "Other"
+                                          - cell "Email" [ref=f4e227]
+                                          - cell [ref=f4e228]:
+                                            - textbox [ref=f4e229]
+                                        - row [ref=f4e230]:
+                                          - cell "Industry" [ref=f4e231]
+                                          - cell "--None--" [ref=f4e232]:
+                                            - combobox [ref=f4e233]:
+                                              - option "--None--" [selected]
+                                              - option "Apparel"
+                                              - option "Banking"
+                                              - option "Biotechnology"
+                                              - option "Chemicals"
+                                              - option "Communications"
+                                              - option "Construction"
+                                              - option "Consulting"
+                                              - option "Education"
+                                              - option "Electronics"
+                                              - option "Energy"
+                                              - option "Engineering"
+                                              - option "Entertainment"
+                                              - option "Environmental"
+                                              - option "Finance"
+                                              - option "Food & Beverage"
+                                              - option "Government"
+                                              - option "Healthcare"
+                                              - option "Hospitality"
+                                              - option "Insurance"
+                                              - option "Machinery"
+                                              - option "Manufacturing"
+                                              - option "Media"
+                                              - option "Not For Profit"
+                                              - option "Recreation"
+                                              - option "Retail"
+                                              - option "Shipping"
+                                              - option "Technology"
+                                              - option "Telecommunications"
+                                              - option "Transportation"
+                                              - option "Utilities"
+                                              - option "Other"
+                                          - cell "Website" [ref=f4e234]
+                                          - cell [ref=f4e235]:
+                                            - textbox [ref=f4e236]
+                                        - row [ref=f4e237]:
+                                          - 'cell "Annual Revenue: ($)" [ref=f4e238]'
+                                          - cell [ref=f4e239]:
+                                            - textbox [ref=f4e240]: "0"
+                                          - cell "Lead Status" [ref=f4e241]
+                                          - cell "--None--" [ref=f4e242]:
+                                            - combobox [ref=f4e243]:
+                                              - option "--None--" [selected]
+                                              - option "Attempted to Contact"
+                                              - option "Cold"
+                                              - option "Contact in Future"
+                                              - option "Contacted"
+                                              - option "Hot"
+                                              - option "Junk Lead"
+                                              - option "Lost Lead"
+                                              - option "Not Contacted"
+                                              - option "Pre Qualified"
+                                              - option "Qualified"
+                                              - option "Warm"
+                                        - row [ref=f4e244]:
+                                          - cell "No Of Employees" [ref=f4e245]
+                                          - cell [ref=f4e246]:
+                                            - textbox [ref=f4e247]
+                                          - cell "Rating" [ref=f4e248]
+                                          - cell "--None--" [ref=f4e249]:
+                                            - combobox [ref=f4e250]:
+                                              - option "--None--" [selected]
+                                              - option "Acquired"
+                                              - option "Active"
+                                              - option "Market Failed"
+                                              - option "Project Cancelled"
+                                              - option "Shutdown"
+                                        - row [ref=f4e251]:
+                                          - cell "Secondary Email" [ref=f4e252]
+                                          - cell [ref=f4e253]:
+                                            - textbox [ref=f4e254]
+                                          - cell "*Assigned To" [ref=f4e255]
+                                          - cell [ref=f4e256]:
+                                            - radio [checked] [ref=f4e257]
+                                            - text: User
+                                            - radio [ref=f4e258]
+                                            - text: Group
+                                            - combobox [ref=f4e260]:
+                                              - option "Administrator" [selected]
+                                        - row [ref=f4e261]:
+                                          - cell "Address Information" [ref=f4e262]
+                                        - row [ref=f4e263]:
+                                          - cell "Street" [ref=f4e264]
+                                          - cell [ref=f4e265]:
+                                            - textbox [ref=f4e266]
+                                          - cell "PO Box" [ref=f4e267]
+                                          - cell [ref=f4e268]:
+                                            - textbox [ref=f4e269]
+                                        - row [ref=f4e270]:
+                                          - cell "Postal Code" [ref=f4e271]
+                                          - cell [ref=f4e272]:
+                                            - textbox [ref=f4e273]
+                                          - cell "City" [ref=f4e274]
+                                          - cell [ref=f4e275]:
+                                            - textbox [ref=f4e276]
+                                        - row [ref=f4e277]:
+                                          - cell "Country" [ref=f4e278]
+                                          - cell [ref=f4e279]:
+                                            - textbox [ref=f4e280]
+                                          - cell "State" [ref=f4e281]
+                                          - cell [ref=f4e282]:
+                                            - textbox [ref=f4e283]
+                                        - row [ref=f4e284]:
+                                          - cell "Description Information" [ref=f4e285]
+                                        - row [ref=f4e286]:
+                                          - cell "Description" [ref=f4e287]
+                                          - cell [ref=f4e288]:
+                                            - textbox [ref=f4e289]
+                                        - row [ref=f4e290]:
+                                          - cell [ref=f4e291]:
+                                            - generic [ref=f4e292]:
+                                              - button "Save" [ref=f4e293]
+                                              - button "Cancel" [ref=f4e294]
+        - cell [ref=f4e295]
+  - table [ref=f4e297]:
+    - rowgroup [ref=f4e298]:
+      - row [ref=f4e299]:
+        - cell "Powered by vtiger CRM 5.4.0" [ref=f4e300]
+        - cell [ref=f4e302]:
+          - generic [ref=f4e303]:
+            - text: © 2004-2026
+            - link "vtiger.com" [ref=f4e304] [cursor=pointer]:
+              - /url: http://www.vtiger.com
+            - text: "|"
+            - link "Read License" [ref=f4e305] [cursor=pointer]:
+              - /url: javascript:mypopup()
+            - text: "|"
+            - link "Privacy Policy" [ref=f4e306] [cursor=pointer]:
+              - /url: http://www.vtiger.com/products/crm/privacy_policy.html

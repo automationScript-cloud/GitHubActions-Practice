@@ -7,11 +7,16 @@ export default defineConfig({
 
   fullyParallel: true,
 
-  timeout: 600000, 
+  timeout: 600000,
 
-  retries:2,
+  retries: 2,
 
-  reporter: [['html'], ['list']],
+  // reporter: [['html'], ['list']],
+
+  reporter: [
+    ['html'], ['list'],
+    ['allure-playwright']   // sirf allure reporter
+  ],
 
   use: {
     headless: false,

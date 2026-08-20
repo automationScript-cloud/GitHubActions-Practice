@@ -1,0 +1,868 @@
+- generic [active] [ref=f3e1]:
+  - table [ref=f3e2]:
+    - rowgroup [ref=f3e3]:
+      - row [ref=f3e4]:
+        - cell [ref=f3e5]:
+          - img "vtiger-crm-logo.gif" [ref=f3e6]
+        - cell [ref=f3e7]:
+          - table [ref=f3e9]:
+            - rowgroup [ref=f3e10]:
+              - row [ref=f3e11]:
+                - cell [ref=f3e12]:
+                  - textbox [ref=f3e13]: Search...
+                - cell [ref=f3e14]:
+                  - link:
+                    - /url: javascript:void(0);
+                    - img [ref=f3e15] [cursor=pointer]
+                - cell [ref=f3e16]:
+                  - button "Find" [ref=f3e17] [cursor=pointer]
+        - cell [ref=f3e18]:
+          - table [ref=f3e19]:
+            - rowgroup [ref=f3e20]:
+              - row [ref=f3e21]:
+                - cell "Administrator" [ref=f3e22]
+                - cell [ref=f3e23]
+                - cell [ref=f3e25]
+                - cell [ref=f3e28]
+  - table [ref=f3e30]:
+    - rowgroup [ref=f3e31]:
+      - row [ref=f3e32]:
+        - cell [ref=f3e33]:
+          - link [ref=f3e34] [cursor=pointer]:
+            - /url: index.php?module=Home&action=index&parenttab=My Home Page
+        - cell [ref=f3e36]:
+          - table [ref=f3e37]:
+            - rowgroup [ref=f3e38]:
+              - row [ref=f3e39]:
+                - cell [ref=f3e40]
+                - cell [ref=f3e42]:
+                  - link "Calendar" [ref=f3e43] [cursor=pointer]:
+                    - /url: index.php?module=Calendar&action=index
+                - cell [ref=f3e44]
+                - cell [ref=f3e46]:
+                  - link "Leads" [ref=f3e47] [cursor=pointer]:
+                    - /url: index.php?module=Leads&action=index
+                - cell [ref=f3e48]
+                - cell [ref=f3e50]:
+                  - link "Organizations" [ref=f3e51] [cursor=pointer]:
+                    - /url: index.php?module=Accounts&action=index
+                - cell [ref=f3e52]
+                - cell [ref=f3e54]:
+                  - link "Contacts" [ref=f3e55] [cursor=pointer]:
+                    - /url: index.php?module=Contacts&action=index
+                - cell [ref=f3e56]
+                - cell [ref=f3e58]:
+                  - link "Opportunities" [ref=f3e59] [cursor=pointer]:
+                    - /url: index.php?module=Potentials&action=index
+                - cell [ref=f3e60]
+                - cell [ref=f3e62]:
+                  - link "Products" [ref=f3e63] [cursor=pointer]:
+                    - /url: index.php?module=Products&action=index
+                - cell [ref=f3e64]
+                - cell [ref=f3e66]:
+                  - link "Documents" [ref=f3e67] [cursor=pointer]:
+                    - /url: index.php?module=Documents&action=index
+                - cell [ref=f3e68]
+                - cell [ref=f3e70]:
+                  - link "Email" [ref=f3e71] [cursor=pointer]:
+                    - /url: index.php?module=Emails&action=index
+                - cell [ref=f3e72]
+                - cell [ref=f3e74]:
+                  - link "Trouble Tickets" [ref=f3e75] [cursor=pointer]:
+                    - /url: index.php?module=HelpDesk&action=index
+                - cell [ref=f3e76]
+                - cell [ref=f3e78]:
+                  - link "Dashboard" [ref=f3e79] [cursor=pointer]:
+                    - /url: index.php?module=Dashboard&action=index
+                - cell [ref=f3e80]
+                - cell [ref=f3e82]:
+                  - link "More" [ref=f3e83] [cursor=pointer]:
+                    - /url: javascript:;
+                - cell [ref=f3e85]
+                - cell "Quick Create..." [ref=f3e87]:
+                  - combobox [ref=f3e88]:
+                    - option "Quick Create..." [selected]
+                    - option "New Organization"
+                    - option "New Asset"
+                    - option "New To Do"
+                    - option "New Campaign"
+                    - option "New Comment"
+                    - option "New Contact"
+                    - option "New Document"
+                    - option "New Event"
+                    - option "New Ticket"
+                    - option "New Lead"
+                    - option "New Opportunity"
+                    - option "New PriceBook"
+                    - option "New Product"
+                    - option "New Project"
+                    - option "New Project Milestone"
+                    - option "New Project Task"
+                    - option "New Service Contract"
+                    - option "New Service"
+                    - option "New Vendor"
+        - cell [ref=f3e89]
+  - table [ref=f3e90]:
+    - rowgroup [ref=f3e91]:
+      - row [ref=f3e92]:
+        - cell [ref=f3e93]
+      - row [ref=f3e94]:
+        - cell [ref=f3e95]:
+          - link "Leads" [ref=f3e96] [cursor=pointer]:
+            - /url: index.php?action=ListView&module=Leads&parenttab=Marketing
+        - cell [ref=f3e97]:
+          - table [ref=f3e98]:
+            - rowgroup [ref=f3e99]:
+              - row [ref=f3e100]:
+                - cell [ref=f3e101]
+                - cell [ref=f3e102]:
+                  - table [ref=f3e103]:
+                    - rowgroup [ref=f3e104]:
+                      - row [ref=f3e105]:
+                        - cell [ref=f3e106]:
+                          - table [ref=f3e107]:
+                            - rowgroup [ref=f3e108]:
+                              - row [ref=f3e109]:
+                                - cell [ref=f3e110]:
+                                  - link [ref=f3e111] [cursor=pointer]:
+                                    - /url: index.php?module=Leads&action=EditView&return_action=DetailView&parenttab=Marketing
+                                    - img "Create Lead..." [ref=f3e112]
+                                - cell [ref=f3e113]:
+                                  - link [ref=f3e114] [cursor=pointer]:
+                                    - /url: javascript:;
+                                    - img "Search in Leads..." [ref=f3e115]
+                - cell [ref=f3e116]
+                - cell [ref=f3e117]:
+                  - table [ref=f3e118]:
+                    - rowgroup [ref=f3e119]:
+                      - row [ref=f3e120]:
+                        - cell [ref=f3e121]:
+                          - link [ref=f3e122] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Open Calendar..." [ref=f3e123]
+                        - cell [ref=f3e124]:
+                          - link [ref=f3e125] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Show World Clock..." [ref=f3e126]
+                        - cell [ref=f3e127]:
+                          - link [ref=f3e128] [cursor=pointer]:
+                            - /url: "#"
+                            - img "Open Calculator..." [ref=f3e129]
+                        - cell [ref=f3e130]:
+                          - link [ref=f3e131] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Chat..." [ref=f3e132]
+                        - cell [ref=f3e133]:
+                          - img "Last Viewed" [ref=f3e134]
+                - cell [ref=f3e135]
+                - cell [ref=f3e136]:
+                  - table [ref=f3e137]:
+                    - rowgroup [ref=f3e138]:
+                      - row [ref=f3e139]:
+                        - cell [ref=f3e140]:
+                          - link [ref=f3e141] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=Import&step=1&return_module=Leads&return_action=index&parenttab=Marketing
+                            - img "Import Leads" [ref=f3e142]
+                        - cell [ref=f3e143]:
+                          - link [ref=f3e144] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                            - img "Export Leads" [ref=f3e145]
+                        - cell [ref=f3e146]:
+                          - link [ref=f3e147] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Find Duplicates" [ref=f3e148]
+                - cell [ref=f3e149]
+                - cell [ref=f3e150]:
+                  - table [ref=f3e151]:
+                    - rowgroup [ref=f3e152]:
+                      - row [ref=f3e153]:
+                        - cell [ref=f3e154]:
+                          - link [ref=f3e155] [cursor=pointer]:
+                            - /url: index.php?module=Settings&action=ModuleManager&module_settings=true&formodule=Leads&parenttab=Settings
+                            - img "Leads Settings" [ref=f3e156]
+      - row [ref=f3e157]:
+        - cell [ref=f3e158]
+  - table [ref=f3e159]:
+    - rowgroup [ref=f3e160]:
+      - row [ref=f3e161]:
+        - cell [ref=f3e162]
+        - cell [ref=f3e164]:
+          - table [ref=f3e167]:
+            - rowgroup [ref=f3e168]:
+              - row [ref=f3e169]:
+                - cell [ref=f3e170]:
+                  - text: Search
+                  - link "Go to Advanced Search" [ref=f3e172] [cursor=pointer]:
+                    - /url: "#"
+                - cell "Search for" [ref=f3e173]
+                - cell [ref=f3e174]:
+                  - textbox [ref=f3e175]
+                - cell "In" [ref=f3e176]
+                - cell [ref=f3e177]:
+                  - combobox [ref=f3e179]:
+                    - option "Lead No" [selected]
+                    - option "Last Name"
+                    - option "First Name"
+                    - option "Company"
+                    - option "Phone"
+                    - option "Website"
+                    - option "Email"
+                    - option "Assigned To"
+                - cell [ref=f3e180]:
+                  - button "Search Now" [ref=f3e181]
+                - cell "[x]" [ref=f3e182]
+              - row [ref=f3e183]:
+                - cell [ref=f3e184]:
+                  - table [ref=f3e185]:
+                    - rowgroup [ref=f3e186]:
+                      - row [ref=f3e187]:
+                        - cell "A" [ref=f3e188] [cursor=pointer]
+                        - cell "B" [ref=f3e189] [cursor=pointer]
+                        - cell "C" [ref=f3e190] [cursor=pointer]
+                        - cell "D" [ref=f3e191] [cursor=pointer]
+                        - cell "E" [ref=f3e192] [cursor=pointer]
+                        - cell "F" [ref=f3e193] [cursor=pointer]
+                        - cell "G" [ref=f3e194] [cursor=pointer]
+                        - cell "H" [ref=f3e195] [cursor=pointer]
+                        - cell "I" [ref=f3e196] [cursor=pointer]
+                        - cell "J" [ref=f3e197] [cursor=pointer]
+                        - cell "K" [ref=f3e198] [cursor=pointer]
+                        - cell "L" [ref=f3e199] [cursor=pointer]
+                        - cell "M" [ref=f3e200] [cursor=pointer]
+                        - cell "N" [ref=f3e201] [cursor=pointer]
+                        - cell "O" [ref=f3e202] [cursor=pointer]
+                        - cell "P" [ref=f3e203] [cursor=pointer]
+                        - cell "Q" [ref=f3e204] [cursor=pointer]
+                        - cell "R" [ref=f3e205] [cursor=pointer]
+                        - cell "S" [ref=f3e206] [cursor=pointer]
+                        - cell "T" [ref=f3e207] [cursor=pointer]
+                        - cell "U" [ref=f3e208] [cursor=pointer]
+                        - cell "V" [ref=f3e209] [cursor=pointer]
+                        - cell "W" [ref=f3e210] [cursor=pointer]
+                        - cell "X" [ref=f3e211] [cursor=pointer]
+                        - cell "Y" [ref=f3e212] [cursor=pointer]
+                        - cell "Z" [ref=f3e213] [cursor=pointer]
+          - table [ref=f3e216]:
+            - rowgroup [ref=f3e217]:
+              - row [ref=f3e218]:
+                - cell [ref=f3e219]:
+                  - table [ref=f3e220]:
+                    - rowgroup [ref=f3e221]:
+                      - row [ref=f3e222]:
+                        - cell "Showing Records 1 - 20 of 144" [ref=f3e223]
+                        - cell [ref=f3e224]:
+                          - table [ref=f3e225]:
+                            - rowgroup [ref=f3e226]:
+                              - row [ref=f3e227]:
+                                - cell [ref=f3e228]:
+                                  - table [ref=f3e229]:
+                                    - rowgroup [ref=f3e230]:
+                                      - row [ref=f3e231]:
+                                        - 'cell "Filters : All" [ref=f3e232]':
+                                          - generic [ref=f3e233]: "Filters :"
+                                          - combobox [ref=f3e234]:
+                                            - option "All" [selected]
+                                            - option "Hot Leads"
+                                            - option "This Month Leads"
+                                        - cell [ref=f3e235]:
+                                          - link "Create Filter" [ref=f3e236] [cursor=pointer]:
+                                            - /url: index.php?module=Leads&action=CustomView&parenttab=Marketing
+                                          - text: "| Edit | Delete"
+                        - cell [ref=f3e237]:
+                          - table [ref=f3e238]:
+                            - rowgroup [ref=f3e239]:
+                              - row [ref=f3e240]:
+                                - cell [ref=f3e241]:
+                                  - textbox [ref=f3e244]: "1"
+                                  - text: of 8
+                                  - link "Next" [ref=f3e245] [cursor=pointer]:
+                                    - /url: javascript:;
+                                  - link "Last" [ref=f3e247] [cursor=pointer]:
+                                    - /url: javascript:;
+                  - table [ref=f3e249]:
+                    - rowgroup [ref=f3e250]:
+                      - row [ref=f3e251]:
+                        - cell [ref=f3e252]:
+                          - button "Delete" [ref=f3e253]
+                          - button "Mass Edit" [ref=f3e254]
+                          - button "Send Mail" [ref=f3e255]
+                          - button "Send SMS" [ref=f3e256]
+                  - table [ref=f3e258]:
+                    - rowgroup [ref=f3e259]:
+                      - row [ref=f3e260]:
+                        - cell [ref=f3e261]:
+                          - checkbox [ref=f3e262]
+                        - cell [ref=f3e263]:
+                          - link "Lead No" [ref=f3e264] [cursor=pointer]:
+                            - /url: javascript:;
+                        - cell [ref=f3e265]:
+                          - link "Last Name" [ref=f3e266] [cursor=pointer]:
+                            - /url: javascript:;
+                        - cell [ref=f3e267]:
+                          - link "First Name" [ref=f3e268] [cursor=pointer]:
+                            - /url: javascript:;
+                        - cell [ref=f3e269]:
+                          - link "Company" [ref=f3e270] [cursor=pointer]:
+                            - /url: javascript:;
+                        - cell [ref=f3e271]:
+                          - link "Phone" [ref=f3e272] [cursor=pointer]:
+                            - /url: javascript:;
+                        - cell [ref=f3e273]:
+                          - link "Website" [ref=f3e274] [cursor=pointer]:
+                            - /url: javascript:;
+                        - cell [ref=f3e275]:
+                          - link "Email" [ref=f3e276] [cursor=pointer]:
+                            - /url: javascript:;
+                        - cell [ref=f3e277]:
+                          - link "Assigned To" [ref=f3e278] [cursor=pointer]:
+                            - /url: javascript:;
+                        - cell "Action" [ref=f3e279]
+                      - row
+                      - row [ref=f3e280]:
+                        - cell [ref=f3e281]:
+                          - checkbox [ref=f3e282]
+                        - cell "LEA132" [ref=f3e283]
+                        - cell [ref=f3e284]:
+                          - link "Pathak" [ref=f3e285] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=271
+                        - cell "Leads" [ref=f3e286]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=271
+                        - cell "E-Mech Solution" [ref=f3e287]
+                        - cell [ref=f3e288]
+                        - cell [ref=f3e289]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e290]:
+                          - link:
+                            - /url: javascript:InternalMailer(271,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e291]
+                        - cell [ref=f3e292]:
+                          - link "edit" [ref=f3e293] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=271&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e294] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D271%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e295]:
+                        - cell [ref=f3e296]:
+                          - checkbox [ref=f3e297]
+                        - cell "LEA133" [ref=f3e298]
+                        - cell [ref=f3e299]:
+                          - link "Pathak" [ref=f3e300] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=272
+                        - cell "Leads" [ref=f3e301]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=272
+                        - cell "E-Mech Solution" [ref=f3e302]
+                        - cell [ref=f3e303]
+                        - cell [ref=f3e304]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e305]:
+                          - link:
+                            - /url: javascript:InternalMailer(272,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e306]
+                        - cell [ref=f3e307]:
+                          - link "edit" [ref=f3e308] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=272&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e309] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D272%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e310]:
+                        - cell [ref=f3e311]:
+                          - checkbox [ref=f3e312]
+                        - cell "LEA134" [ref=f3e313]
+                        - cell [ref=f3e314]:
+                          - link "Pathak" [ref=f3e315] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=273
+                        - cell "Leads" [ref=f3e316]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=273
+                        - cell "E-Mech Solution" [ref=f3e317]
+                        - cell [ref=f3e318]
+                        - cell [ref=f3e319]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e320]:
+                          - link:
+                            - /url: javascript:InternalMailer(273,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e321]
+                        - cell [ref=f3e322]:
+                          - link "edit" [ref=f3e323] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=273&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e324] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D273%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e325]:
+                        - cell [ref=f3e326]:
+                          - checkbox [ref=f3e327]
+                        - cell "LEA135" [ref=f3e328]
+                        - cell [ref=f3e329]:
+                          - link "Pathak" [ref=f3e330] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=274
+                        - cell "Leads" [ref=f3e331]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=274
+                        - cell "E-Mech Solution" [ref=f3e332]
+                        - cell [ref=f3e333]
+                        - cell [ref=f3e334]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e335]:
+                          - link:
+                            - /url: javascript:InternalMailer(274,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e336]
+                        - cell [ref=f3e337]:
+                          - link "edit" [ref=f3e338] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=274&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e339] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D274%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e340]:
+                        - cell [ref=f3e341]:
+                          - checkbox [ref=f3e342]
+                        - cell "LEA136" [ref=f3e343]
+                        - cell [ref=f3e344]:
+                          - link "Pathak" [ref=f3e345] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=275
+                        - cell "Leads" [ref=f3e346]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=275
+                        - cell "E-Mech Solution" [ref=f3e347]
+                        - cell [ref=f3e348]
+                        - cell [ref=f3e349]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e350]:
+                          - link:
+                            - /url: javascript:InternalMailer(275,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e351]
+                        - cell [ref=f3e352]:
+                          - link "edit" [ref=f3e353] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=275&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e354] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D275%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e355]:
+                        - cell [ref=f3e356]:
+                          - checkbox [ref=f3e357]
+                        - cell "LEA137" [ref=f3e358]
+                        - cell [ref=f3e359]:
+                          - link "Pathak" [ref=f3e360] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=276
+                        - cell "Leads" [ref=f3e361]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=276
+                        - cell "E-Mech Solution" [ref=f3e362]
+                        - cell [ref=f3e363]
+                        - cell [ref=f3e364]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e365]:
+                          - link:
+                            - /url: javascript:InternalMailer(276,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e366]
+                        - cell [ref=f3e367]:
+                          - link "edit" [ref=f3e368] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=276&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e369] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D276%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e370]:
+                        - cell [ref=f3e371]:
+                          - checkbox [ref=f3e372]
+                        - cell "LEA138" [ref=f3e373]
+                        - cell [ref=f3e374]:
+                          - link "Pathak" [ref=f3e375] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=277
+                        - cell "Leads" [ref=f3e376]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=277
+                        - cell "E-Mech Solution" [ref=f3e377]
+                        - cell [ref=f3e378]
+                        - cell [ref=f3e379]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e380]:
+                          - link:
+                            - /url: javascript:InternalMailer(277,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e381]
+                        - cell [ref=f3e382]:
+                          - link "edit" [ref=f3e383] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=277&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e384] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D277%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e385]:
+                        - cell [ref=f3e386]:
+                          - checkbox [ref=f3e387]
+                        - cell "LEA139" [ref=f3e388]
+                        - cell [ref=f3e389]:
+                          - link "Pathak" [ref=f3e390] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=278
+                        - cell "Leads" [ref=f3e391]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=278
+                        - cell "E-Mech Solution" [ref=f3e392]
+                        - cell [ref=f3e393]
+                        - cell [ref=f3e394]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e395]:
+                          - link:
+                            - /url: javascript:InternalMailer(278,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e396]
+                        - cell [ref=f3e397]:
+                          - link "edit" [ref=f3e398] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=278&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e399] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D278%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e400]:
+                        - cell [ref=f3e401]:
+                          - checkbox [ref=f3e402]
+                        - cell "LEA140" [ref=f3e403]
+                        - cell [ref=f3e404]:
+                          - link "Pathak" [ref=f3e405] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=279
+                        - cell "Leads" [ref=f3e406]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=279
+                        - cell "E-Mech Solution" [ref=f3e407]
+                        - cell [ref=f3e408]
+                        - cell [ref=f3e409]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e410]:
+                          - link:
+                            - /url: javascript:InternalMailer(279,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e411]
+                        - cell [ref=f3e412]:
+                          - link "edit" [ref=f3e413] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=279&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e414] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D279%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e415]:
+                        - cell [ref=f3e416]:
+                          - checkbox [ref=f3e417]
+                        - cell "LEA141" [ref=f3e418]
+                        - cell [ref=f3e419]:
+                          - link "Kesari" [ref=f3e420] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=280
+                        - cell "Leads" [ref=f3e421]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=280
+                        - cell "BioTech" [ref=f3e422]
+                        - cell [ref=f3e423]
+                        - cell [ref=f3e424]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e425]:
+                          - link:
+                            - /url: javascript:InternalMailer(280,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e426]
+                        - cell [ref=f3e427]:
+                          - link "edit" [ref=f3e428] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=280&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e429] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D280%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e430]:
+                        - cell [ref=f3e431]:
+                          - checkbox [ref=f3e432]
+                        - cell "LEA142" [ref=f3e433]
+                        - cell [ref=f3e434]:
+                          - link "Pathak" [ref=f3e435] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=281
+                        - cell "Leads" [ref=f3e436]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=281
+                        - cell "E-Mech Solution" [ref=f3e437]
+                        - cell [ref=f3e438]
+                        - cell [ref=f3e439]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e440]:
+                          - link:
+                            - /url: javascript:InternalMailer(281,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e441]
+                        - cell [ref=f3e442]:
+                          - link "edit" [ref=f3e443] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=281&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e444] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D281%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e445]:
+                        - cell [ref=f3e446]:
+                          - checkbox [ref=f3e447]
+                        - cell "LEA143" [ref=f3e448]
+                        - cell [ref=f3e449]:
+                          - link "Pathak" [ref=f3e450] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=282
+                        - cell "Leads" [ref=f3e451]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=282
+                        - cell "E-Mech Solution" [ref=f3e452]
+                        - cell [ref=f3e453]
+                        - cell [ref=f3e454]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e455]:
+                          - link:
+                            - /url: javascript:InternalMailer(282,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e456]
+                        - cell [ref=f3e457]:
+                          - link "edit" [ref=f3e458] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=282&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e459] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D282%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e460]:
+                        - cell [ref=f3e461]:
+                          - checkbox [ref=f3e462]
+                        - cell "LEA144" [ref=f3e463]
+                        - cell [ref=f3e464]:
+                          - link "Pathak" [ref=f3e465] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=283
+                        - cell "Leads" [ref=f3e466]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=283
+                        - cell "E-Mech Solution" [ref=f3e467]
+                        - cell [ref=f3e468]
+                        - cell [ref=f3e469]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e470]:
+                          - link:
+                            - /url: javascript:InternalMailer(283,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e471]
+                        - cell [ref=f3e472]:
+                          - link "edit" [ref=f3e473] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=283&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e474] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D283%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e475]:
+                        - cell [ref=f3e476]:
+                          - checkbox [ref=f3e477]
+                        - cell "LEA145" [ref=f3e478]
+                        - cell [ref=f3e479]:
+                          - link "Pathak" [ref=f3e480] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=284
+                        - cell "Leads" [ref=f3e481]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=284
+                        - cell "E-Mech Solution" [ref=f3e482]
+                        - cell [ref=f3e483]
+                        - cell [ref=f3e484]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e485]:
+                          - link:
+                            - /url: javascript:InternalMailer(284,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e486]
+                        - cell [ref=f3e487]:
+                          - link "edit" [ref=f3e488] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=284&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e489] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D284%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e490]:
+                        - cell [ref=f3e491]:
+                          - checkbox [ref=f3e492]
+                        - cell "LEA146" [ref=f3e493]
+                        - cell [ref=f3e494]:
+                          - link "Pathak" [ref=f3e495] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=285
+                        - cell "Leads" [ref=f3e496]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=285
+                        - cell "E-Mech Solution" [ref=f3e497]
+                        - cell [ref=f3e498]
+                        - cell [ref=f3e499]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e500]:
+                          - link:
+                            - /url: javascript:InternalMailer(285,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e501]
+                        - cell [ref=f3e502]:
+                          - link "edit" [ref=f3e503] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=285&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e504] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D285%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e505]:
+                        - cell [ref=f3e506]:
+                          - checkbox [ref=f3e507]
+                        - cell "LEA147" [ref=f3e508]
+                        - cell [ref=f3e509]:
+                          - link "Pathak" [ref=f3e510] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=286
+                        - cell "Leads" [ref=f3e511]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=286
+                        - cell "E-Mech Solution" [ref=f3e512]
+                        - cell [ref=f3e513]
+                        - cell [ref=f3e514]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e515]:
+                          - link:
+                            - /url: javascript:InternalMailer(286,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e516]
+                        - cell [ref=f3e517]:
+                          - link "edit" [ref=f3e518] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=286&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e519] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D286%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e520]:
+                        - cell [ref=f3e521]:
+                          - checkbox [ref=f3e522]
+                        - cell "LEA148" [ref=f3e523]
+                        - cell [ref=f3e524]:
+                          - link "Pathak" [ref=f3e525] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=287
+                        - cell "Leads" [ref=f3e526]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=287
+                        - cell "E-Mech Solution" [ref=f3e527]
+                        - cell [ref=f3e528]
+                        - cell [ref=f3e529]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e530]:
+                          - link:
+                            - /url: javascript:InternalMailer(287,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e531]
+                        - cell [ref=f3e532]:
+                          - link "edit" [ref=f3e533] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=287&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e534] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D287%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e535]:
+                        - cell [ref=f3e536]:
+                          - checkbox [ref=f3e537]
+                        - cell "LEA149" [ref=f3e538]
+                        - cell [ref=f3e539]:
+                          - link "Pathak" [ref=f3e540] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=288
+                        - cell "Leads" [ref=f3e541]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=288
+                        - cell "E-Mech Solution" [ref=f3e542]
+                        - cell [ref=f3e543]
+                        - cell [ref=f3e544]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e545]:
+                          - link:
+                            - /url: javascript:InternalMailer(288,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e546]
+                        - cell [ref=f3e547]:
+                          - link "edit" [ref=f3e548] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=288&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e549] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D288%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e550]:
+                        - cell [ref=f3e551]:
+                          - checkbox [ref=f3e552]
+                        - cell "LEA150" [ref=f3e553]
+                        - cell [ref=f3e554]:
+                          - link "Pathak" [ref=f3e555] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=289
+                        - cell "Leads" [ref=f3e556]:
+                          - link "Leads":
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=289
+                        - cell "E-Mech Solution" [ref=f3e557]
+                        - cell [ref=f3e558]
+                        - cell [ref=f3e559]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e560]:
+                          - link:
+                            - /url: javascript:InternalMailer(289,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e561]
+                        - cell [ref=f3e562]:
+                          - link "edit" [ref=f3e563] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=289&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e564] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D289%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                      - row [ref=f3e565]:
+                        - cell [ref=f3e566]:
+                          - checkbox [ref=f3e567]
+                        - cell "LEA151" [ref=f3e568]
+                        - cell [ref=f3e569]:
+                          - link "Doom" [ref=f3e570] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=290
+                        - cell [ref=f3e571]:
+                          - link "DR." [ref=f3e572] [cursor=pointer]:
+                            - /url: index.php?module=Leads&parenttab=Marketing&action=DetailView&record=290
+                        - cell "Avengers" [ref=f3e573]
+                        - cell [ref=f3e574]
+                        - cell [ref=f3e575]:
+                          - link:
+                            - /url: http://
+                        - cell [ref=f3e576]:
+                          - link:
+                            - /url: javascript:InternalMailer(290,46,'email','Leads','record_id');
+                        - cell "Administrator" [ref=f3e577]
+                        - cell [ref=f3e578]:
+                          - link "edit" [ref=f3e579] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=EditView&record=290&return_module=Leads&return_action=index&parenttab=Marketing&return_viewname=1
+                          - text: "|"
+                          - link "del" [ref=f3e580] [cursor=pointer]:
+                            - /url: javascript:confirmdelete("index.php%3Fmodule%3DLeads%26action%3DDelete%26record%3D290%26return_module%3DLeads%26return_action%3Dindex%26parenttab%3DMarketing%26return_viewname%3D1")
+                  - table [ref=f3e581]:
+                    - rowgroup [ref=f3e582]:
+                      - row [ref=f3e583]:
+                        - cell [ref=f3e584]:
+                          - button "Delete" [ref=f3e585]
+                          - button "Mass Edit" [ref=f3e586]
+                          - button "Send Mail" [ref=f3e587]
+                          - button "Send SMS" [ref=f3e588]
+                        - cell [ref=f3e589]:
+                          - table [ref=f3e590]:
+                            - rowgroup [ref=f3e591]:
+                              - row [ref=f3e592]:
+                                - cell [ref=f3e593]:
+                                  - link "Create Mail Merge templates" [ref=f3e594] [cursor=pointer]:
+                                    - /url: index.php?module=Settings&action=upload&tempModule=Leads&parenttab=Settings
+              - row [ref=f3e595]:
+                - cell [ref=f3e596]:
+                  - table [ref=f3e597]:
+                    - rowgroup [ref=f3e598]:
+                      - row [ref=f3e599]:
+                        - cell "Showing Records 1 - 20 of 144" [ref=f3e600]
+                        - cell [ref=f3e601]:
+                          - table [ref=f3e602]:
+                            - rowgroup [ref=f3e603]:
+                              - row [ref=f3e604]:
+                                - cell [ref=f3e605]:
+                                  - textbox [ref=f3e608]: "1"
+                                  - text: of 8
+                                  - link "Next" [ref=f3e609] [cursor=pointer]:
+                                    - /url: javascript:;
+                                  - link "Last" [ref=f3e611] [cursor=pointer]:
+                                    - /url: javascript:;
+        - cell [ref=f3e613]
+  - table [ref=f3e615]:
+    - rowgroup [ref=f3e616]:
+      - row [ref=f3e617]:
+        - cell "Powered by vtiger CRM 5.4.0" [ref=f3e618]
+        - cell [ref=f3e620]:
+          - generic [ref=f3e621]:
+            - text: © 2004-2026
+            - link "vtiger.com" [ref=f3e622] [cursor=pointer]:
+              - /url: http://www.vtiger.com
+            - text: "|"
+            - link "Read License" [ref=f3e623] [cursor=pointer]:
+              - /url: javascript:mypopup()
+            - text: "|"
+            - link "Privacy Policy" [ref=f3e624] [cursor=pointer]:
+              - /url: http://www.vtiger.com/products/crm/privacy_policy.html

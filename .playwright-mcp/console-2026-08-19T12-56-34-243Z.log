@@ -1,0 +1,11 @@
+[    1345ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8888/:0
+[    1365ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8888/favicon.ico:0
+[   15812ms] [ERROR] Refused to set unsafe header "Connection" @ http://localhost:8888/include/scriptaculous/prototype.js:720
+[   15817ms] [ERROR] Refused to set unsafe header "Connection" @ http://localhost:8888/include/scriptaculous/prototype.js:720
+[   15818ms] [ERROR] Refused to set unsafe header "Connection" @ http://localhost:8888/include/scriptaculous/prototype.js:720
+[   15861ms] [ERROR] Refused to set unsafe header "Connection" @ http://localhost:8888/include/scriptaculous/prototype.js:720
+[   60590ms] [ERROR] Refused to set unsafe header "Connection" @ http://localhost:8888/include/scriptaculous/prototype.js:720
+[  102163ms] [ERROR] Refused to set unsafe header "Connection" @ http://localhost:8888/include/scriptaculous/prototype.js:720
+[  144007ms] [ERROR] Refused to set unsafe header "Connection" @ http://localhost:8888/include/scriptaculous/prototype.js:720
+[  185661ms] [ERROR] Refused to set unsafe header "Connection" @ http://localhost:8888/include/scriptaculous/prototype.js:720
+[  226973ms] [ERROR] Refused to set unsafe header "Connection" @ http://localhost:8888/include/scriptaculous/prototype.js:720

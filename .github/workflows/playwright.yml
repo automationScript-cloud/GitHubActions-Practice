@@ -1,139 +1,27 @@
-name: Playwright Automation Tests
-
+name: Playwright Tests
 on:
   push:
-    branches:
-      - main
-
+    branches: [ main, master ]
   pull_request:
-    branches:
-      - main
-
-  workflow_dispatch:
-    inputs:
-      test_type:
-        description: "Select Test Type"
-        required: true
-        default: smoke
-        type: choice
-        options:
-          - smoke
-          - regression
-
-      environment:
-        description: "Select Environment"
-        required: true
-        default: qa
-        type: choice
-        options:
-          - qa
-          - staging
-          - production
-
-      browser:
-        description: "Select Browser"
-        required: true
-        default: chromium
-        type: choice
-        options:
-          - chromium
-          - firefox
-          - webkit
-          - all
-
-  schedule:
-    - cron: "0 22 * * *"
-
-
-env:
-  CI: true
-  NODE_VERSION: 20
-
-
-concurrency:
-  group: playwright-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
-
+    branches: [ main, master ]
 jobs:
-  playwright-tests:
-
+  test:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
-
-    timeout-minutes: 30
-
-    environment:
-      name: ${{ inputs.environment || 'qa' }}
-
     steps:
-
-      - name: Checkout Code
-        uses: actions/checkout@v6
-
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: ${{ env.NODE_VERSION }}
-          cache: npm
-
-
-      - name: Check Node and NPM Version
-        run: |
-          node --version
-          npm --version
-
-
-      - name: Install Dependencies
-        run: npm ci
-
-
-      - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
-
-
-      - name: Run Smoke Tests
-        if: |
-          (github.event_name == 'push') ||
-          (github.event_name == 'pull_request') ||
-          (github.event_name == 'workflow_dispatch' && inputs.test_type == 'smoke')
-        run: |
-          if [ "${{ inputs.browser }}" = "all" ] || [ -z "${{ inputs.browser }}" ]; then
-            npx playwright test --grep "@Smoke"
-          else
-            npx playwright test --grep "@Smoke" --project="${{ inputs.browser }}"
-          fi
-        env:
-          BASE_URL: ${{ vars.BASE_URL }}
-
-
-      - name: Run Regression Tests
-        if: |
-          (github.event_name == 'schedule') ||
-          (github.event_name == 'workflow_dispatch' && inputs.test_type == 'regression')
-        run: |
-          if [ "${{ inputs.browser }}" = "all" ] || [ -z "${{ inputs.browser }}" ]; then
-            npx playwright test --grep "@Regression"
-          else
-            npx playwright test --grep "@Regression" --project="${{ inputs.browser }}"
-          fi
-        env:
-          BASE_URL: ${{ vars.BASE_URL }}
-
-
-      - name: Upload Playwright Report
-        if: always()
-        uses: actions/upload-artifact@v5
-        with:
-          name: playwright-report
-          path: playwright-report/
-          retention-days: 30
-
-
-      - name: Upload Test Results
-        if: always()
-        uses: actions/upload-artifact@v5
-        with:
-          name: playwright-test-results
-          path: test-results/
-          retention-days: 30
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm ci
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
+    - name: Run Playwright tests
+      run: npx playwright test
+    - uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() }}
+      with:
+        name: playwright-report
+        path: playwright-report/
+        retention-days: 30

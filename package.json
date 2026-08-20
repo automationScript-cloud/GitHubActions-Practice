@@ -1,5 +1,5 @@
 {
-  "name": "githubactions",
+  "name": "playwright_mcp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
-    "@types/node": "^26.2.0"
+    "@types/node": "^26.2.0",
+    "allure-playwright": "^3.10.2"
   }
 }
